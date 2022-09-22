@@ -1,0 +1,61 @@
+#tableView {
+    -fx-table-cell-border-color: transparent;
+    -fx-alignment: center-left;
+}
+
+.root {
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.button {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#tableView .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+#tableView .column-header-background {
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+#tableView .filler {
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+#tableView .table-column {
+    -fx-alignment: center-left;
+    -fx-pref-height: 40;
+    -fx-pref-width: 150;
+}
+
+#tableView .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-alignment: center-left;
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-alignment: center-left;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+}
+
+
+

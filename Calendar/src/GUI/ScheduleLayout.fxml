@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.net.URL?>
+<TableView fx:id="tableView" xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           prefHeight="400.0" prefWidth="600.0">
+    <stylesheets>
+        <URL value="@ScheduleLayout.css"/>
+    </stylesheets>
+    <columns>
+        <TableColumn fx:id="idCol" text="序号"/>
+        <TableColumn fx:id="typeCol" text="事项类型"/>
+        <TableColumn fx:id="importanceCol" text="重要程度"/>
+        <TableColumn fx:id="statusCol" text="状态"/>
+        <TableColumn fx:id="addChildCol" text="添加子待办事项"/>
+        <TableColumn fx:id="isFinishedCol" text="设置已完成"/>
+        <TableColumn fx:id="startTimeCol" text="起始时间"/>
+        <TableColumn fx:id="endTimeCol" text="结束时间"/>
+        <TableColumn fx:id="cancelRemindCol" text="取消提醒"/>
+        <TableColumn fx:id="messageCol" text="具体事宜"/>
+        <TableColumn fx:id="deleteCol"/>
+    </columns>
+</TableView>

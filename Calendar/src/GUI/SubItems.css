@@ -1,0 +1,142 @@
+#base {
+    -fx-background-image: url(2.gif);
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+.button {
+    -fx-min-width: 40px;
+}
+
+.labels {
+    -fx-padding: 0px 0px 20px 50px;
+}
+
+.labelHoliday {
+    -fx-text-fill: red;
+    -fx-padding: 38px 0px 0px 20px;
+}
+.hbox {
+     -fx-spacing: 10;
+     -fx-padding: 10;
+ }
+
+.today {
+    -fx-border-color: white;
+}
+
+.otherMonth {
+    -fx-opacity: 0.6;
+}
+
+.rest {
+    -fx-text-fill: blue;
+}
+
+.work {
+    -fx-text-fill: red;
+}
+
+#top {
+    -fx-spacing: 10;
+}
+
+#top .label {
+    -fx-text-fill: #a9a9a9;
+}
+
+#top .combo-box {
+    -fx-opacity: 0.5;
+}
+
+#bottom .button:hover {
+     -fx-opacity: 1;
+ }
+
+#top .button:hover {
+    -fx-opacity: 1;
+}
+
+#top .combo-box:hover {
+    -fx-opacity: 1;
+}
+
+#calendarShow .button {
+    -fx-font-alignment: center;
+    -fx-background-color: null;
+    -fx-text-fill: #a9a9a9;
+    -fx-font-size: 15px;
+    -fx-min-width: 70px;
+    -fx-min-height: 48px;
+}
+
+#bottom .button {
+    -fx-min-width: 80px;
+}
+
+#bottom .label {
+    -fx-text-fill: #a9a9a9;
+}
+
+#bottom .text-field, #bottom .button, #top .button {
+    -fx-opacity: 0.2;
+}
+
+#bottom .text-field:focused {
+    -fx-opacity: 1;
+}
+
+#typeOfThingToAddFiled1{
+    -fx-opacity: 0.5;
+}
+
+#typeOfThingToAddFiled1:hover {
+    -fx-opacity: 1;
+}
+
+#timeOfRemind{
+    -fx-opacity: 0.5;
+}
+
+#timeOfRemind:hover {
+    -fx-opacity: 1;
+}
+
+#typeOfTransportsToAddFiled{
+    -fx-opacity: 0.5;
+}
+
+#typeOfTransportsToAddFiled:hover {
+    -fx-opacity: 1;
+}
+
+#repeatWeek{
+    -fx-opacity: 0.5;
+}
+
+#repeatWeek:hover {
+    -fx-opacity: 1;
+}
+
+#importanceOfSchedule{
+    -fx-opacity: 0.5;
+}
+
+#importanceOfSchedule:hover {
+    -fx-opacity: 1;
+}
+
+#wayOfRemind{
+    -fx-opacity: 0.5;
+}
+
+#wayOfRemind:hover {
+    -fx-opacity: 1;
+}
+
+#remindAgain{
+    -fx-opacity: 0.5;
+}
+
+#remindAgain:hover {
+    -fx-opacity: 1;
+}
